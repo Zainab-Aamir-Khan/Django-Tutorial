@@ -3,6 +3,7 @@ from . import views
 
 #URLconfig
 urlpatterns = [
+    
     path('hello/', views.say_hello)
     
 ]
